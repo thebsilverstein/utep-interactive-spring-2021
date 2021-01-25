@@ -1,1 +1,1 @@
-Assets for Brandon Silverstein's Spring 2021 UTEP course.
+Assets for UTEP Special Topics in Art: Interactive II course taught by Brandon Silverstein.
