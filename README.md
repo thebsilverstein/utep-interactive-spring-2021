@@ -1,5 +1,1 @@
-Assets for Special Topics in Art: Interactive II.
-
-UTEP
-
-Spring 2021
+Assets for Brandon Silverstein's UTEP Special Topics in Art: Interactive II course for Spring 2021.
