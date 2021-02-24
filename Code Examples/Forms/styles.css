@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+label {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 4px;
+}
+
+div.group {
+	margin-bottom: 15px;
+}
+
+/* Comma means "AND". Styles apply to Input AND Textareas */
+input, textarea {
+	width: 300px;
+	padding: 10px;
+	color: red;
+	font-family: Helvetica;
+	font-size: 14px;
+	border: 2px solid blue;
+	border-radius: 8px;
+}
+
+textarea {
+	height: 150px;
+}
+
+button {
+	background: blue;
+	color: white;
+	border: none;
+	padding: 20px;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+button:hover {
+	cursor: pointer;
+	background: teal;
+}

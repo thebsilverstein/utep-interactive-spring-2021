@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	color: navy;
+	text-shadow: 5px 5px 5px gray;
+	font-family: 'Anton', sans-serif;
+}
+
+h2 {
+	color: red;
+	font-family: 'Anton', sans-serif;
+}
+
+h3 {
+	color: purple;
+}
+
+a {
+	color: teal;
+}
+
+a:hover {
+	background: black;
+	color: white;
+}
+
+div {
+	border: 6px solid black;
+	background: #B3B3B3;
+	border-radius: 12px;
+	margin: 20px;
+	padding: 20px;
+}
+
+div.special {
+	border: 6px solid orange;
+	background: #FDFFB4;
+}
+
+table {
+	font-family: Times New Roman;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	border: 2px solid black;
+	width: 50%;
+	background: white;
+}
+
+td {
+	border: 2px solid black;
+}
+
+tr {
+	background: #7DFFA1;
+}
+
+/*
+tr:nth-child(even) {
+	background: #FFBABB;
+}
+*/
+
+tr:nth-child(3n+2) {
+	background: orange;
+}
+
+tr:nth-child(3n+1) {
+	background: yellow;
+}
+
+tr:hover {
+	background: #9BF0FC;
+}
+
+img {
+	border-radius: 50%;
+}
