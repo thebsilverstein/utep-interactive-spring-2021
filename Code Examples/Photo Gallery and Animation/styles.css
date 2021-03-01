@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+div.header {
+	background: LightCoral;
+	padding: 15px;
+}
+
+div.content {
+	background: LightGreen;
+	padding: 15px;
+	width: 70%;
+	float: left;
+}
+
+div.thumbnail {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+/* There is a space. The space meants target
+the img tags INSIDE of any div tags with class thumbnail. */
+div.thumbnail img {
+	width: 100%;
+}
+
+div.sidebar {
+	background: Gold;
+	padding: 15px;
+	width: 30%;
+	float: left;
+}
+
+div.footer {
+	background: SteelBlue;
+	padding: 15px;
+	clear: both;
+}
+
+/*
+
+h1 {
+	animation-duration: 5s;
+	animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+h2 {
+	animation-duration: 8s;
+	animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+*/
