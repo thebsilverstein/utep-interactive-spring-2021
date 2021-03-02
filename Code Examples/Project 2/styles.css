@@ -1,6 +1,56 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {
-  color: blue;
+* {
+	box-sizing: border-box;
 }
+
+h1 {
+  	color: green;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* START: Header */
+
+div.header {
+	text-align: center;
+}
+
+div.header ul {
+	list-style: none;
+	padding: 0;
+}
+
+div.header li {
+	display: inline;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+/* END: Header */
+
+/* START: Content */
+
+div.content {
+	width: 70%;
+	float: left;
+}
+
+/* END: Content */
+
+/* START: Sidebar */
+
+div.sidebar {
+	width: 30%;
+	float: left;
+}
+
+/* END: Sidebar */
+
+/* START: Footer */
+
+div.footer {
+	clear: both;
+}
+
+/* END: Footer */
